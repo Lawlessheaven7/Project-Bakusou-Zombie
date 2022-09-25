@@ -1,25 +1,12 @@
 ﻿<Properties StartupConfiguration="{FA56049D-BA28-7732-3378-F213A9F4E66D}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Launcher.cs">
     <Files>
-      <File FileName="Assets/Photon/PhotonRealtime/Code/RegionHandler.cs" Line="473" Column="1" />
-      <File FileName="Library/PackageCache/com.unity.inputsystem@1.4.2/InputSystem/Actions/InputBindingResolver.cs" Line="638" Column="1" />
-      <File FileName="Assets/Scripts/Launcher.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Launcher.cs" Line="131" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Bakusou Zombie" expanded="True">
-            <Node name="Assets" expanded="True">
-              <Node name="Photon" expanded="True">
-                <Node name="PhotonRealtime" expanded="True">
-                  <Node name="Code" expanded="True">
-                    <Node name="RegionHandler.cs" selected="True" />
-                  </Node>
-                </Node>
-              </Node>
-              <Node name="Scripts" expanded="True" />
-            </Node>
-          </Node>
+          <Node name="Bakusou Zombie" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>
