@@ -19,13 +19,10 @@ public class Launcher : MonoBehaviourPunCallbacks
     public GameObject loadingScreen;
     public GameObject menuButtons;
     public GameObject createRoomScreen;
-    public GameObject roomScreen;
-    public GameObject errorScreen;
 
     public TMP_Text loadingText;
     public TMP_InputField roomNameInput;
-    public TMP_Text roomText;
-    public TMP_Text errorText;
+
 
     // Start is called before the first frame update
     void Start()
@@ -45,8 +42,6 @@ public class Launcher : MonoBehaviourPunCallbacks
         loadingScreen.SetActive(false);
         menuButtons.SetActive(false);
         createRoomScreen.SetActive(false);
-        roomScreen.SetActive(false);
-        errorScreen.SetActive(false);
     }
 
     //Action that happens after connecting to the master server
@@ -71,60 +66,5 @@ public class Launcher : MonoBehaviourPunCallbacks
         createRoomScreen.SetActive(true);
     }
 
-    //Function to create a room in the lobby.
-    public void CreateRoom()
-    {
-        //if the room name input field is not empty, players are allowed to create a room with the option settings in the scripts.
-        if (!string.IsNullOrEmpty(roomNameInput.text))
-        {
-            RoomOptions options = new RoomOptions();
-            options.MaxPlayers = 20;
 
-       
-            PhotonNetwork.CreateRoom(roomNameInput.text, options);
-
-            CloseMenus();
-            loadingText.text = "Creating Room . . . ";
-            loadingScreen.SetActive(true);
-        }
-    }
-
-    //Actions that happened once player joins the room
-    public override void OnJoinedRoom()
-    {
-        CloseMenus();
-        roomScreen.SetActive(true);
-
-        roomText.text = PhotonNetwork.CurrentRoom.Name;
-    }
-
-    // WHen creating the room failed
-    public override void OnCreateRoomFailed(short returnCode, string message)
-    {
-        errorText.text = "Failed To Create Room: " + message;
-        CloseMenus();
-        errorScreen.SetActive(true);
-    }
-
-    //Error screen utility function to reopen the menu
-    public void closeErrorScreen()
-    {
-        CloseMenus();
-        menuButtons.SetActive(true);
-    }
-
-    //Leaving the room
-    public void LeaveRoom()
-    {
-        PhotonNetwork.LeaveRoom();
-        CloseMenus();
-        loadingText.text = "Leaving Room . . . ";
-        loadingScreen.SetActive(true);
-    }
-
-    public override void OnLeftRoom()
-    {
-        CloseMenus();
-        menuButtons.SetActive(true);
-    }
 }
