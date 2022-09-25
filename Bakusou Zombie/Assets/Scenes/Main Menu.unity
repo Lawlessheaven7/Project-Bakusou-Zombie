@@ -1615,12 +1615,17 @@ MonoBehaviour:
   loadingScreen: {fileID: 87954766}
   menuButtons: {fileID: 316157488}
   createRoomScreen: {fileID: 2013540197}
+<<<<<<< HEAD
   roomScreen: {fileID: 0}
   errorScreen: {fileID: 0}
   loadingText: {fileID: 1725168505}
   roomNameInput: {fileID: 351357454}
   roomText: {fileID: 0}
   errorText: {fileID: 0}
+=======
+  loadingText: {fileID: 1725168505}
+  roomNameInput: {fileID: 351357454}
+>>>>>>> parent of 99f1adf (Ui Design 2)
 --- !u!1 &1298341992
 GameObject:
   m_ObjectHideFlags: 0
@@ -1933,7 +1938,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2013540198
 RectTransform:
   m_ObjectHideFlags: 0
