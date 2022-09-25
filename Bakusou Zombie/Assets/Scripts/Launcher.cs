@@ -80,7 +80,7 @@ public class Launcher : MonoBehaviourPunCallbacks
             RoomOptions options = new RoomOptions();
             options.MaxPlayers = 20;
 
-       
+
             PhotonNetwork.CreateRoom(roomNameInput.text, options);
 
             CloseMenus();
