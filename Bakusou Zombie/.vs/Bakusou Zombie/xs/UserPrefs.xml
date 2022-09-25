@@ -2,7 +2,13 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Launcher.cs">
     <Files>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <File FileName="Assets/Scripts/Launcher.cs" Line="131" Column="1" />
+=======
+      <File FileName="Assets/Photon/PhotonRealtime/Code/RegionHandler.cs" Line="473" Column="1" />
+      <File FileName="Library/PackageCache/com.unity.inputsystem@1.4.2/InputSystem/Actions/InputBindingResolver.cs" Line="638" Column="1" />
+      <File FileName="Assets/Scripts/Launcher.cs" Line="1" Column="1" />
+>>>>>>> parent of 99f1adf (Ui Design 2)
 =======
       <File FileName="Assets/Photon/PhotonRealtime/Code/RegionHandler.cs" Line="473" Column="1" />
       <File FileName="Library/PackageCache/com.unity.inputsystem@1.4.2/InputSystem/Actions/InputBindingResolver.cs" Line="638" Column="1" />
@@ -15,10 +21,13 @@
           <Node name="Bakusou Zombie" expanded="True">
             <Node name="Assets" expanded="True">
 <<<<<<< HEAD
+<<<<<<< HEAD
               <Node name="Scripts" expanded="True">
                 <Node name="Launcher.cs" selected="True" />
               </Node>
 =======
+=======
+>>>>>>> parent of 99f1adf (Ui Design 2)
               <Node name="Photon" expanded="True">
                 <Node name="PhotonRealtime" expanded="True">
                   <Node name="Code" expanded="True">
@@ -27,6 +36,9 @@
                 </Node>
               </Node>
               <Node name="Scripts" expanded="True" />
+<<<<<<< HEAD
+>>>>>>> parent of 99f1adf (Ui Design 2)
+=======
 >>>>>>> parent of 99f1adf (Ui Design 2)
             </Node>
           </Node>

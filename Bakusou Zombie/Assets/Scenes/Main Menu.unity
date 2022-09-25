@@ -1616,12 +1616,17 @@ MonoBehaviour:
   menuButtons: {fileID: 316157488}
   createRoomScreen: {fileID: 2013540197}
 <<<<<<< HEAD
+<<<<<<< HEAD
   roomScreen: {fileID: 0}
   errorScreen: {fileID: 0}
   loadingText: {fileID: 1725168505}
   roomNameInput: {fileID: 351357454}
   roomText: {fileID: 0}
   errorText: {fileID: 0}
+=======
+  loadingText: {fileID: 1725168505}
+  roomNameInput: {fileID: 351357454}
+>>>>>>> parent of 99f1adf (Ui Design 2)
 =======
   loadingText: {fileID: 1725168505}
   roomNameInput: {fileID: 351357454}

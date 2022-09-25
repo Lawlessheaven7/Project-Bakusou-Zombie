@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.10f1 (1c7d0df0160b) revision 1867021'; Using compiler version '192829333'; Build Type 'Release'
 OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'en' Physical Memory: 22474 MB
@@ -7,6 +8,8 @@ BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, I
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\2021.3.10f1\Editor\Unity.exe
 =======
+=======
+>>>>>>> parent of 99f1adf (Ui Design 2)
 Unity Editor version:    2021.3.10f1 (1c7d0df0160b)
 Branch:                  2021.3/staging
 Build type:              Release
@@ -21,6 +24,9 @@ Pro License: YES
 
 COMMAND LINE ARGUMENTS:
 /Applications/Unity/Hub/Editor/2021.3.10f1/Unity.app/Contents/MacOS/Unity
+<<<<<<< HEAD
+>>>>>>> parent of 99f1adf (Ui Design 2)
+=======
 >>>>>>> parent of 99f1adf (Ui Design 2)
 -adb2
 -batchMode
@@ -28,6 +34,7 @@ COMMAND LINE ARGUMENTS:
 -name
 AssetImportWorker0
 -projectPath
+<<<<<<< HEAD
 <<<<<<< HEAD
 C:/Users/Owner/Documents/GitHub/Project-Bakusou-Zombie/Bakusou Zombie
 -logFile
@@ -37,6 +44,8 @@ Logs/AssetImportWorker0.log
 Successfully changed project path to: C:/Users/Owner/Documents/GitHub/Project-Bakusou-Zombie/Bakusou Zombie
 C:/Users/Owner/Documents/GitHub/Project-Bakusou-Zombie/Bakusou Zombie
 =======
+=======
+>>>>>>> parent of 99f1adf (Ui Design 2)
 /Users/marcosyu/Desktop/Capstone Project/Project-Bakusou-Zombie/Bakusou Zombie
 -logFile
 Logs/AssetImportWorker0.log
@@ -44,6 +53,9 @@ Logs/AssetImportWorker0.log
 51927
 Successfully changed project path to: /Users/marcosyu/Desktop/Capstone Project/Project-Bakusou-Zombie/Bakusou Zombie
 /Users/marcosyu/Desktop/Capstone Project/Project-Bakusou-Zombie/Bakusou Zombie
+<<<<<<< HEAD
+>>>>>>> parent of 99f1adf (Ui Design 2)
+=======
 >>>>>>> parent of 99f1adf (Ui Design 2)
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
@@ -74,6 +86,7 @@ Successfully changed project path to: /Users/marcosyu/Desktop/Capstone Project/P
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
+<<<<<<< HEAD
 <<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 236.95 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -109,6 +122,8 @@ Domain Reload Profiling:
 	ReloadAssembly (1643ms)
 		BeginReloadAssembly (163ms)
 =======
+=======
+>>>>>>> parent of 99f1adf (Ui Design 2)
 Refreshing native plugins compatible for Editor in 241.09 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.10f1 (1c7d0df0160b)
@@ -141,11 +156,15 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (1180ms)
 		BeginReloadAssembly (134ms)
+<<<<<<< HEAD
+>>>>>>> parent of 99f1adf (Ui Design 2)
+=======
 >>>>>>> parent of 99f1adf (Ui Design 2)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
+<<<<<<< HEAD
 <<<<<<< HEAD
 			CreateAndSetChildDomain (2ms)
 		EndReloadAssembly (1186ms)
@@ -163,6 +182,8 @@ Domain Reload Profiling:
 				ProcessInitializeOnLoadAttributes (375ms)
 				ProcessInitializeOnLoadMethodAttributes (138ms)
 =======
+=======
+>>>>>>> parent of 99f1adf (Ui Design 2)
 			CreateAndSetChildDomain (1ms)
 		EndReloadAssembly (872ms)
 			LoadAssemblies (133ms)
@@ -178,6 +199,9 @@ Domain Reload Profiling:
 				BeforeProcessingInitializeOnLoad (2ms)
 				ProcessInitializeOnLoadAttributes (227ms)
 				ProcessInitializeOnLoadMethodAttributes (70ms)
+<<<<<<< HEAD
+>>>>>>> parent of 99f1adf (Ui Design 2)
+=======
 >>>>>>> parent of 99f1adf (Ui Design 2)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -185,6 +209,7 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 <<<<<<< HEAD
 Registered in 0.023751 seconds.
 Begin MonoManager ReloadAssembly
@@ -570,6 +595,8 @@ Domain Reload Profiling:
 	ReloadAssembly (2843ms)
 		BeginReloadAssembly (227ms)
 =======
+=======
+>>>>>>> parent of 99f1adf (Ui Design 2)
 Registered in 0.004724 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/marcosyu/Desktop/Capstone Project/Project-Bakusou-Zombie/Bakusou Zombie/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
@@ -584,11 +611,15 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (2208ms)
 		BeginReloadAssembly (156ms)
+<<<<<<< HEAD
+>>>>>>> parent of 99f1adf (Ui Design 2)
+=======
 >>>>>>> parent of 99f1adf (Ui Design 2)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
+<<<<<<< HEAD
 <<<<<<< HEAD
 			CreateAndSetChildDomain (64ms)
 		EndReloadAssembly (2439ms)
@@ -617,6 +648,8 @@ Unloading 26 unused Assets / (95.4 KB). Loaded Objects now: 4706.
 Memory consumption went from 147.1 MB to 147.0 MB.
 Total: 8.438700 ms (FindLiveObjects: 0.991300 ms CreateObjectMapping: 0.709500 ms MarkObjects: 6.631900 ms  DeleteObjects: 0.102800 ms)
 =======
+=======
+>>>>>>> parent of 99f1adf (Ui Design 2)
 			CreateAndSetChildDomain (47ms)
 		EndReloadAssembly (1871ms)
 			LoadAssemblies (100ms)
@@ -647,6 +680,9 @@ Unloading 4107 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 50 unused Assets / (168.2 KB). Loaded Objects now: 4559.
 Memory consumption went from 271.0 MB to 270.9 MB.
 Total: 4.417359 ms (FindLiveObjects: 0.366568 ms CreateObjectMapping: 0.161280 ms MarkObjects: 3.702420 ms  DeleteObjects: 0.185877 ms)
+<<<<<<< HEAD
+>>>>>>> parent of 99f1adf (Ui Design 2)
+=======
 >>>>>>> parent of 99f1adf (Ui Design 2)
 
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -655,12 +691,15 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
 <<<<<<< HEAD
+<<<<<<< HEAD
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 =======
+=======
+>>>>>>> parent of 99f1adf (Ui Design 2)
   custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -2478,4 +2517,7 @@ Received Import Request.
   path: Assets/StarterAssets/Environment/Art/Models/Stairs_200x100x200_Mesh.fbx
   artifactKey: Guid(fce3bf5a5b603db45ab0048fb6ab44df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/StarterAssets/Environment/Art/Models/Stairs_200x100x200_Mesh.fbx using Guid(fce3bf5a5b603db45ab0048fb6ab44df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7da4b0a878790235fec2b51f86d70ff2') in 0.046629 seconds 
+<<<<<<< HEAD
+>>>>>>> parent of 99f1adf (Ui Design 2)
+=======
 >>>>>>> parent of 99f1adf (Ui Design 2)
