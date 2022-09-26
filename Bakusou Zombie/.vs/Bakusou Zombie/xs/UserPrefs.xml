@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{FA56049D-BA28-7732-3378-F213A9F4E66D}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Photon/PhotonUnityNetworking/Code/PhotonNetworkPart.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/RoomButton.cs">
     <Files>
       <File FileName="Assets/Scripts/Launcher.cs" Line="130" Column="2" />
-      <File FileName="Assets/Photon/PhotonUnityNetworking/Code/PhotonNetworkPart.cs" Line="2538" Column="1" />
+      <File FileName="Assets/Scripts/RoomButton.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
