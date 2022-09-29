@@ -22,17 +22,22 @@ public class Launcher : MonoBehaviourPunCallbacks
     public GameObject roomScreen;
     public GameObject errorScreen;
     public GameObject roomBrowserScreen;
+    public GameObject nameInputScreen;
 
     public TMP_Text loadingText;
     public TMP_Text roomText, playerNameLabel;
     public TMP_Text errorText;
 
+
     public TMP_InputField roomNameInput;
+    public TMP_InputField NameInput;
 
     public RoomButton theRoomButton;
 
     private List<RoomButton> allRoomButtons = new List<RoomButton>();
     private List<TMP_Text> allPlayerNames = new List<TMP_Text>();
+
+    private bool hasSetUsername;
 
     // Start is called before the first frame update
     void Start()
@@ -55,6 +60,7 @@ public class Launcher : MonoBehaviourPunCallbacks
         roomScreen.SetActive(false);
         errorScreen.SetActive(false);
         roomBrowserScreen.SetActive(false);
+        nameInputScreen.SetActive(false);
     }
 
     //Action that happens after connecting to the master server
@@ -74,6 +80,22 @@ public class Launcher : MonoBehaviourPunCallbacks
 
         //Temporally player name, will change later
         PhotonNetwork.NickName = Random.Range(0, 1000f).ToString();
+
+        if (!hasSetUsername)
+        {
+            CloseMenus();
+            nameInputScreen.SetActive(true);
+
+            //If there are something stored in the playername, then set the username to the playername value
+            if (PlayerPrefs.HasKey("playerName"))
+            {
+                NameInput.text = PlayerPrefs.GetString("playerName");
+            }
+        }
+        else
+        {
+            PhotonNetwork.NickName = PlayerPrefs.GetString("playerName");
+        }
     }
 
     public void OpenRoomCreate()
@@ -227,9 +249,28 @@ public class Launcher : MonoBehaviourPunCallbacks
         loadingScreen.SetActive(true);
     }
 
+    //set player username
+    public void setUsername()
+    {
+        if (!string.IsNullOrEmpty(NameInput.text))
+        {
+            PhotonNetwork.NickName = NameInput.text;
+
+            //save the username into a string
+            PlayerPrefs.SetString("playerName", NameInput.text);
+
+            CloseMenus();
+            menuButtons.SetActive(true);
+
+            hasSetUsername = true;
+        }
+    }
+
     //Close the build Version of the game, does nothing to the editor version
     public void QuitGame()
     {
         Application.Quit();
     }
+
+
 }
