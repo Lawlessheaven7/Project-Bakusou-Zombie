@@ -1,8 +1,10 @@
 ﻿<Properties StartupConfiguration="{FA56049D-BA28-7732-3378-F213A9F4E66D}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Launcher.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerInputErrorWorkaround.cs">
     <Files>
       <File FileName="Assets/Scripts/Launcher.cs" Line="89" Column="109" />
-      <File FileName="Assets/Scripts/RoomButton.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/RoomButton.cs" />
+      <File FileName="Library/PackageCache/com.unity.inputsystem@1.4.3/InputSystem/Actions/InputBindingResolver.cs" Line="638" Column="1" />
+      <File FileName="Assets/Scripts/PlayerInputErrorWorkaround.cs" Line="14" Column="7" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -20,7 +22,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="a17dbd7a-6507-4603-96eb-ddd5eef9cbd4" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="0561aaa0-162b-417a-abaa-82314354292d" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
